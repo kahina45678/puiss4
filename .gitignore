@@ -1,0 +1,7 @@
+/.idea/
+/node_modules/
+/server/static/compiled/
+/server/static/dist/
+/__pycache__/
+/*/__pycache__/
+/connect_4.log

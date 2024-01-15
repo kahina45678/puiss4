@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: police;
+    src: url(/home/kahina/Téléchargements/connect-4-master/assets/alba/ALBAM___.TTF);
+}
+body {
+    /* background-image: radial-gradient(#ffffba 8px, transparent 8px), radial-gradient(#ffb3ba 8px, transparent 8px);
+    background-size: 32px 32px;
+    background-position: 0 0, 16px 16px;
+    background-color: #1f1f1f; */
+    background: content-box radial-gradient(crimson, #fcf803);
+    font-family: 'Chango';
+    color: white;
+     /* Couleur de police lisible sur fond pastel */
+}
+
+.titre{
+    text-align: center;
+
+    padding-top: 20px;
+    font-weight: 800;
+    font-size: 4.4em;
+    
+}
+ .sousTitre {
+    text-align: center;
+
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#mode {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+    width: 100%;
+}
+
+button {
+    width: 23%;
+    margin: 10px; /* Ajout de marge entre les boutons */
+    padding: 10px;
+    background-color: skyblue;
+}
+
+.mode-button {
+    border-radius: 80px;
+    border: 4px solid white;
+    width: 45rem;
+    margin:10px;
+    color: white;
+
+    height: 8rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 6px;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: 700;
+    background-color: skyblue;
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+}
+
+.mode-button:hover {
+    transform: scale(0.99);
+    transition: transform 0.2s ease;
+}
+
+div#app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.tout{
+ 
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+
+}
+
+.parent {
+    text-align: center;
+}

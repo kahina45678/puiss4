@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block head %}
+    <script defer type="module" src={{ url_for('static', filename='dist/play_game.js') }}></script>
+    <link rel="stylesheet" href={{ url_for('static', filename='css/game.css') }}>
+    <title>Connect-4</title>
+{% endblock %}
+
+{% block body %}
+    <div id="app" class="container"></div>
+{% endblock %}
